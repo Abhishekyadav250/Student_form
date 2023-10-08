@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title> Student form</title>
+       <link rel="stylesheet" href="style.css"/>
+        
+    </head>
+  <body>
+     <div class="image text-center">
+            <img class ="immg" src="https://lh3.googleusercontent.com/Bm2FlxgC2JBBh6KNwNL5UG1cOrbPpHxB_avw0Rn4x_PV-3g8NzE5a-FCQUpQ_cDDw7VFzUpvMsATcLObzTTEisHmquvRss2pestjFqb6YUh84Jnqe5PYCAg2R2X0-ZyaCw=w1200">
+        </div>
+
+
+        <div class="container">
+            <div class="upperborder">
+            </div>
+            <h3 class="heading"> Thought Works Fresher hiring Dev positions</h3>
+            <p>JD For Developer role:<br>
+                ================</p>
+            <p>As an Application Developer in Thought Works, here's what you can do: 
+                Learn something new every day
+                Work with the latest technologies, in a highly collaborative environment
+                Deliver agile software solutions using best practices such as TDD and pair programming
+                Think through hard problems, and work with a team to make them reality.</p>
+            <p>Ideally, you should you have: 
+                Less than 6 months of work experience
+                Good Programming skills, preferably have some experience using Object Oriented languages.</p>
+
+            <p>Comfortable with application of Data Structures and Algorithms
+                Ability to Program Design 
+                Have understanding of Operating Systems, Databases & Computer Science Concepts 
+                Desire to work in a dynamic and interactive team-working environment</p>
+            <hr><!-- comment -->
+
+            <p style="color: red">* Indicates required question</p>
+
+        </div>
+        <form method="get" action="StudentForm" >
+            <div class="container">
+                <h6>Enter your full name<span>*</span></h6>
+                <p>First and last name</p>
+                <input type="text" name="sname" placeholder="Your answer">
+            </div>
+            <div class="container">
+                <h6>Phone Number - (DO NOT include +91)<span>*</span></h6>
+                <P>(Enter right Phone number as you would receive interview call)</P>
+                <input type="number" name="number" placeholder="Your answer">
+            </div> 
+            <div class="container">
+                <h6>    Enter your Email Address<span>*</span></h6>
+                <p>(Enter right email as you would receive interview call)</p>
+                <input type="email" name="email" placeholder="Your answer">
+            </div>
+
+            <div class="container">
+                <h6>Choose your Gender<span>*</span></h6><br>
+                <input type="radio" name="gender" value="Male">Male<br><br>
+                <input type="radio" name="gender" value="Female">Female<br><br>
+                <input type="radio" name="gender" value="other">Other
+            </div>
+            <div class="container">
+                <h6>Which position(s) are you interested in?<span>*</span></h6><br>
+                <input type="radio" name="possition" value="Developer">Developer<br><br>
+                <input type="radio" name="possition" value="QA">QA<br><br>
+                <input type="radio" name="possition" value="FIne with QA">Fine with QA<br><br>
+                <input type="radio" name="possition" value="Other posstion">Other possition
+
+            </div>
+            <div class="container">
+                <h6>Year of passed out<span>*</span></h6><br>
+                <input type="radio" name="year" value="twenty two">2022<br><br>
+                <input type="radio" name="year" value="twenty one">2021<br><br>
+                <input type="radio" name="year" value="twenty">2020<br><br>
+                <input type="radio" name="year" value="Other">Other
+
+            </div>
+            <div class="container">
+                <h6>Choose your degree<span>*</span></h6>
+                <select name="cource" >
+                    <option >
+                        Select your Degree
+                    </option>
+                    <option >
+                        B.tech
+                    </option>
+                    <option >  
+                        M.tech
+
+                    </option>
+                    <option >
+                        Other
+
+                    </option>
+
+                </select>
+            </div>
+             <div class="container">
+                <h6>Do you have any Prior Internship experience?<span>*</span></h6><br>
+                <input type="radio" name="experience" value="Yes">Yes<br><br>
+                <input type="radio" name="experience" value="No">No<br><br>
+             
+            </div>
+           <div class="container">
+                <h6>Do you have good knowledge/hands on in Programming languages?<span>*</span></h6><br>
+                <input type="radio" name="knowledge" value="Yes">Yes<br><br>
+                <input type="radio" name="knowledge" value="No">No<br><br>
+              
+            </div>
+            <div class="container">
+                <h6>Do you have knowledge in SQL (At least on basic level)<span>*</span></h6><br>
+                <input type="radio" name="knowledgeofsql" value="Yes">Yes<br><br>
+                <input type="radio" name="knowledgeofsql" value="No">No<br><br>
+              
+            </div>
+            <div class="container">
+                <h6>Do you have knowledge in UI technologies like HTML, Javascript, CSS etc ? (At least on basic level)<span>*</span></h6><br>
+                <input type="radio" name="UItechnologies" value="Yes">Yes<br><br>
+                <input type="radio" name="UItechnologies" value="No">No<br><br>
+              
+            </div>
+            <div class="container">
+                <h6>Will you attend interview if profile is shortlisted? (Interview might be mostly virtual via zoom)<span>*</span></h6><br>
+                <input type="radio" name="interview" value="Yes">Yes<br><br>
+                <input type="radio" name="interview" value="No">No<br><br>
+              
+            </div>
+             
+ <div class="containers">
+                <button class="btn" type="submit"> Click to submit</button>  
+                 
+            </div>
+                        
+
+            
+        </form>
+     <div class="containerss">
+              <a class="btn" href="Data.jsp">See the all candidate details</a>
+
+                 
+            </div>
+    </body>
+</html>

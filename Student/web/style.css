@@ -1,0 +1,143 @@
+body{
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #f0ebf8;
+}
+.immg {
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    width: 50%;
+   
+}
+.fill {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 10px;
+  
+}
+.container {
+ 
+     width: 50%;
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid rgb(218,220,224);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 22px;
+    position: relative;
+}
+.container h6{
+        font-size: 12pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    margin-bottom: -1px;
+}
+.container h6 span{
+    color:red;
+}
+
+.containrer p{
+    font-size: 11pt;
+    line-height: 15pt;
+    letter-spacing: 0;
+}
+input::placeholder{
+        font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32,33,36);
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px rgb(32,33,36) solid;
+    outline: none;
+}
+select{
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px rgb(32,33,36) solid;
+    outline: none;
+}
+
+.upperborder {
+    background-color:rgb(27, 124, 107);
+    color: rgba(255, 255, 255, 1);
+     border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 10px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: calc(100% + 2px);
+}
+.heading{
+    font-size: 24pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+}
+.containers {
+width: 100%;
+text-align: center;
+    margin-top: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 22px;
+    position: relative;
+}
+.containerss {
+width: 100%;
+text-align: center;
+float: right;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 22px;
+    position: relative;
+}
+
+.btn {
+background-color: rgb(27, 124, 107);
+color:white;
+}
+.btn:hover {
+  background-color: #004369;
+  color:white;
+}
+
+.btn:focus,
+.btn:active {
+  background-color: black;
+  transition: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tableheader{
+    color:white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.tableheader td{
+    color:white;
+    padding: 20px;
+}
